@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(36, 36, 145);
+}
+
+header h1 {
+    color: aliceblue;
+    font-size: 2rem;
+    margin-left: 20px; /* Ajusta o espaçamento do título */
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 10px 20px; 
+    margin: 0; 
+    background-color: rgb(20, 162, 197);
+    border-radius: 5px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(11, 3, 78);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.menu a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+
+h2 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 12px;
+}
+
+.container {
+    background: rgb(138, 171, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(7, 7, 7);
+}
+
+.articles article img {
+    height: 180px;
+    width: 100%; 
+    border-radius: 10px;
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article a {
+    background-color: rgb(1, 1, 8);
+    color: bisque;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+header i {
+    font-size: 0.8em; 
+}
+
+#economia h2 {
+    font-size: 40px;
+    padding-left: 12px;
+}
+
+#economia .container {
+    background-color: blanchedalmond;
+}
+
+#saude .container {
+    background-color: rgb(228, 37, 37);
+}
+
+#saude .container p,
+#saude .container h3 {
+    color: white;
+}
+
+#saude .container a {
+    background-color: aqua;
+}
+
+.cerebro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.brain-image {
+    width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.brain-image:hover {
+    transform: scale(1.1);
+}
+
+#entretenimento .container {
+    background-color: #32CD32;
+}
+
+#entretenimento .container a {
+    background-color: rgb(83, 2, 2);
+}
+
+#entretenimento .container p{
+    color: white;
+}
+#entretenimento .container h3 {
+    color: white;
+}
